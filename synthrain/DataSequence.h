@@ -7,6 +7,7 @@
 #include <queue>
 #include <thread>
 #include <mutex>
+#include <condition_variable>
 
 #ifdef _WIN32
 namespace fs = std::experimental::filesystem;

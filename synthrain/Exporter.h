@@ -4,6 +4,8 @@
 #include <mutex>
 #include <queue>
 #include <condition_variable> 
+#include <functional>
+#include <list>
 
 #include <filesystem>
 #ifdef _WIN32
